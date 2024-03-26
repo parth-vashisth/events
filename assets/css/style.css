@@ -373,11 +373,13 @@
     }
 
     label[for="nav-icon"] {
-        height: 30px;
+        height: 25px;
         width: 25px;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+        position: fixed;
+        right: 5%;
         z-index: 10;
     }
 
