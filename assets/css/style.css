@@ -170,7 +170,6 @@
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    margin-top: 12px;
     color: #666666;
 }
 
@@ -207,4 +206,14 @@
     .card-img {
         border-radius: 0%;
     }
+}
+
+.card-btn:hover {
+    background-color: white;
+    color: #2C49FE;
+    border: 1px solid #2C49FE;
+}
+
+.mt-12 {
+    margin-top: 12px;
 }
