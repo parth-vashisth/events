@@ -72,7 +72,7 @@
 
 .Events {
     font-family: "Poppins", sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 48.6px;
     text-align: left;
@@ -81,7 +81,7 @@
 
 .Free {
     font-family: "Poppins", sans-serif;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 48.6px;
     text-align: left;
@@ -196,7 +196,7 @@
     border: 1px solid #CCCCCC;
     padding: 25px;
     border-radius: 20px;
-    margin-top: 35px;
+    margin-top: 24px;
 }
 
 .card:hover {
@@ -248,16 +248,18 @@
     width: 25%;
     padding-left: 12px;
     padding-right: 12px;
+}
+
+.f-direction-col {
     flex-direction: column;
-    display: flex;
 }
 
 .pt-70 {
     padding-top: 70px;
 }
 
-.pb-130 {
-    padding-bottom: 130px;
+.pb-60 {
+    padding-bottom: 60px;
 }
 
 .bg-black {
@@ -271,10 +273,15 @@
     font-weight: 400;
     line-height: 21px;
     text-align: left;
-    width: 346px;
+    max-width: 346px;
+    width: 100%;
     margin-top: 20px;
     color: white;
 
+}
+
+.w-30 {
+    width: 30%;
 }
 
 .list-head {
@@ -284,6 +291,7 @@
     line-height: 21px;
     text-align: left;
     color: white;
+    margin-top: 20px;
 }
 
 .list-txt {
@@ -318,9 +326,16 @@
     text-align: left;
     color: white;
     margin-top: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: left;
+}
+
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.w-15 {
+    width: 15%;
 }
 
 .box-txt {
@@ -333,4 +348,85 @@
 
 .pb-30 {
     padding-bottom: 30px;
+}
+
+
+.check-btn {
+    margin-top: 0px;
+}
+
+@media (max-width:768px) {
+    .display {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: black;
+    }
+
+    input[type="checkbox"]:checked~ul.display {
+        right: 0;
+
+    }
+
+    label[for="nav-icon"] {
+        height: 30px;
+        width: 25px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        z-index: 10;
+    }
+
+    label[for="nav-icon"]>span {
+        width: 100%;
+        height: 4px;
+        background-color: red;
+
+    }
+}
+
+@media (min-width:576px) {
+    .col-sm-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:768px) {
+    .col-md-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-md-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width:992px) {
+    .col-lg-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-5 {
+        width: 41.66%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-7 {
+        width: 58.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
