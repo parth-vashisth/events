@@ -124,7 +124,7 @@
     line-height: 24px;
     /* text-align: left; */
     color: white;
-    margin-top: 143px;
+    padding-top: 143px;
 }
 
 .txt {
@@ -332,6 +332,16 @@
     width: 100%;
     padding-left: 12px;
     padding-right: 12px;
+}
+
+.menu {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: black;
+    opacity: 80%;
+    height: 10vh;
 }
 
 .w-15 {
