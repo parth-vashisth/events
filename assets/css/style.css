@@ -124,7 +124,7 @@
      line-height: 24px;
      /* text-align: left; */
      color: white;
-     padding-top: 143px;
+     padding-top: 200px;
  }
 
  .txt {
@@ -335,8 +335,8 @@
      padding-right: 12px;
  }
 
- .p-15 {
-     padding: 15px;
+ .p-10 {
+     padding: 10px;
  }
 
  .menu {
@@ -344,9 +344,6 @@
      top: 0%;
      left: 0%;
      width: 100%;
-     background-color: black;
-     opacity: 95%;
-
  }
 
  .w-15 {
